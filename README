@@ -1,0 +1,24 @@
+Movie search module 
+Version 1.0 11/18/2015
+
+General Usage Note:
+
+Things you need:
+
+Internet connection.
+Windows/Mac computer with any poplular web browser.
+Node and Express server
+Please follow simple steps to execute the application.
+
+1.In order to successfully run the application you need to unzip the file .
+
+Open the Shell/command line and browse inside the unzipped directory/folder, once inside type is command:> node app.js to start express the web server. 
+
+Then open your web browser and type --> Localhost:8000 and press enter. 
+
+If all goes well, web browser will automatically load the application. 
+
+Feel free to contact me should you have any question or feedback. email: adnankhan.developer@gmail.com
+
+Thanks 
+Adnan Khan

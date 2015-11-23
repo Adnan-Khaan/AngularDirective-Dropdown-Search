@@ -1,0 +1,26 @@
+
+<div class="list-wrapper">
+        
+        	<h1>Movie Search</h1>
+        	<div class="label">AngularJS Directive Drop downlist</div>
+            <div><input type="text" placeholder="Title, Actor" class="input" ng-keydown="checkKeyDown($event)" ng-keyup="checkKeyUp($event)"  ng-model="searchText" ng-change="search(checkboxModel||'Title')" /></div>
+            <ul class="suggestions-list">
+            <li ng-repeat="suggestion in suggestions track by $index" ng-class="{active : selectedIndex === $index}" ng-click="AssignValueAndHide($index)">{{suggestion}}</li>
+           
+            <label>
+    		<input type="radio" ng-model="checkboxModel" ng-value="Title">
+    		Title
+  			</label><br/>
+  			<label>
+    		<input type="radio" ng-model="checkboxModel" value="Actor">
+    		Actor
+  			</label><br/>
+  			<label>
+    		<input type="radio" ng-model="checkboxModel" value="Both">
+    		Title and Actor
+  			</label><br/>
+
+		
+ 
+        </div>
+
